@@ -6,7 +6,7 @@ LABEL maintainer="vinh Nguyen (vinh.nguyen@ecotruck.vn)"
 RUN apt-get update \
     && apt-get install -y \
         apt-utils \
-        libmysqlclient-dev \
+        libmariadbclient-dev \
     && rm -rf /var/lib/apt/lists/*
 
 #expose ports and cmd
