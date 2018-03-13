@@ -1,7 +1,7 @@
 ### Use ubuntu 16.04 for LTS
 FROM ubuntu:16.04
 
-LABEL maintainer="vinh Nguyen (quangvinh1225@gmail.vn)"
+LABEL maintainer="vinh Nguyen (quangvinh1225@gmail.com)"
 
 # Base python images
 # Install base packages and remove the apt packages cache when done.
